@@ -1,21 +1,52 @@
-# Landing page
+# Project Title: MyBiKE Landing Page
 
-> ❗❗ You will complete this task in the topic **Landing**.
-> Now just choose a design and do the parts from the videos
+## Description
+MyBiKE is a modern, responsive landing page designed for a bike rental service. The project emphasizes user experience with smooth animations and a clean layout, ensuring accessibility across all devices.
 
-Choose a design for your landing page:
-- [MET landing](https://www.figma.com/file/lSR1m42L9YwzQwzzxKwHpw/THE-MET)
-- [MYBIKE landing](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
-- [B&O](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6817-212&t=ZTV6Gl8NzaWkJ4FK-0)
-- [Nothing](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6802-139&t=L7eKz5YKLN0m5WxR-0)
+## Technologies Used
+- HTML5
+- SCSS (Sass)
+- JavaScript
+- CSS Animations
+- Responsive Design
 
-Follow the videos in this and next lessons to implement the page block by block
-- Here is [the design from the video](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6703-88&t=L7eKz5YKLN0m5WxR-0) (❗❗ DO NOT implement this design ❗❗ choose one of the options above ❗❗ ☝️)
-- Start writing styles in the `main.scss` file. It is be explained in the `Sass` lesson
-- **DON'T** try to do it `Pixel Perfect` - implement it the most `simple` way so it looks similar;
-- When done check yourself using the [CHECKLIST](./checklist.md) when finished;
-- Deploy and create a Pull Request with a [DEMO LINK](https://<your_account>.github.io/layout_landing-page/)
+## Preview
+You can view the live preview of the project [here](https://blervin1.github.io/layout_landing-page/).
 
-# Tips & Hints
-- Check `background-image: url()` to be relative to the `main.scss`. So should start with `../images`.
-- If some points from the checklist are not relevant to your design, just skip it.
+## Design Mockup
+Access the design mockup [here](https://www.figma.com/design/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version).
+
+## Features
+- **Consistent Animation Speed**: All animations, including hover effects and block transitions during scrolling, maintain the same speed for a cohesive experience.
+- **User-Friendly Forms**: Placeholders in forms provide clear guidance on the expected input. Validation messages inform users about the required data format (e.g., phone number).
+- **Mobile Responsiveness**: The landing page is designed to look neat on mobile devices with no horizontal scrolling.
+- **Favicon**: A favicon is included for branding purposes.
+
+## Additional Instructions for Running the Project
+
+1. **Clone the repository:**:
+   ```bash
+   git clone https://github.com/blervin1/layout_landing-page/
+   ```
+
+2. **Navigate to the project folder:**:
+   ```bash
+   cd layout_landing-page
+   ```
+
+3. **Install dependencies:**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the local server:**:
+   ```bash
+   npm start
+   ```
+
+**5.Open the page in your browser: Navigate to http://localhost:3000.**
+
+
+📩 **Feedback**
+
+If you have any questions or suggestions, feel free to reach out via Issues or create a Pull Request.
